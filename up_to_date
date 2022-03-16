@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 git pull
+=======
+git fetch origin
+git checkout -b update_script origin/update_script
+git merge master
+git checkout master
+git merge --no-ff update_script
+git push origin master
+>>>>>>> fcd2c2a3ee9de2589e3de5afd480de9e38285458
